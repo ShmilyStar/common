@@ -130,12 +130,12 @@ LIENOL)
 ;;
 IMMORTALWRT)
   if [[ "${REPO_BRANCH}" == "mt798x" ]]; then
-    export REPO_URL="https://github.com/levinhuang2013/immortalwrt-mt798x/tree/7981r128-v7.6.7.2"
+    export REPO_URL="https://github.com/levinhuang2013/immortalwrt-mt798x/"
     export SOURCE="Immortalwrt"
     export SOURCE_OWNER="hanwckf's"
     export LUCI_EDITION="mt798x"
     export DIY_WORK="hanwckf2102"
-    export REPO_BRANCH="openwrt-21.02"
+    export REPO_BRANCH="7981r128-v7.6.7.2"
   else
     export REPO_URL="https://github.com/immortalwrt/immortalwrt"
     export SOURCE="Immortalwrt"
