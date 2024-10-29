@@ -137,7 +137,7 @@ IMMORTALWRT)
     export DIY_WORK="hanwckf2102"
     export REPO_BRANCH="7981r128-v7.6.7.2"
   else
-    export REPO_URL="https://github.com/immortalwrt/immortalwrt"
+    export REPO_URL="https://github.com/levinhuang2013/immortalwrt-mt798x"
     export SOURCE="Immortalwrt"
     export SOURCE_OWNER="ctcgfw's"
     export LUCI_EDITION="$(echo "${REPO_BRANCH}" |sed 's/openwrt-//g')"
